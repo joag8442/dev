@@ -1,0 +1,16 @@
+$icon-layout:horizontal;
+@import "icon/*.png";
+@include all-icon-sprites;
+
+.animation {
+	width:500px;
+	height: 250px;
+	background: url("../img/icon-sf6bae0058a.png") left center yellow;
+	animation: play 0.8s steps(8) infinite;
+}
+
+@keyframes play {
+	100% {
+		background-position: -4000px;
+	}	
+}

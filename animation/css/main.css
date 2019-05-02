@@ -1,0 +1,158 @@
+
+.icon-sprite, .icon-img1, .icon-img2, .icon-img3, .icon-img4, .icon-img5, .icon-img6, .icon-img7, .icon-img8, .icon-img9, .icon-img10 {
+  background-image: url('../img/icon-sf6bae0058a.png');
+  background-repeat: no-repeat;
+}
+
+// Google Fonts
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+
+// Font Variables
+$roboto-slab: 'Roboto Slab', serif;   
+$open-sans: 'Open Sans', sans-serif;
+
+// Styles
+body {
+  font-family: $body-font;
+  font-weight: normal;
+}
+h1, h3, h4, h5, h6 {
+  font-family: $header-font;
+  font-weight: normal;
+}
+h2 {
+  font-family: $header-font;
+  font-weight: normal;
+  padding-right: 30px;
+}
+   .index_card{
+      border: solid 1px black; 
+      position: absolute; 
+      left: 5%; 
+      width: 90%;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+
+.icon-1 {
+  background-position: -256px 0;
+}
+.icon-1:hover, .icon-img1.img1-hover {
+  background-position: 0 0;
+}
+
+.icon-2 {
+  background-position: -768px 0;
+}
+.icon-2:hover, .icon-img2.img2-hover {
+  background-position: -512px 0;
+}
+
+.icon-3 {
+  background-position: -1280px 0;
+}
+.icon-3:hover, .icon-img3.img3-hover {
+  background-position: -1024px 0;
+}
+
+.icon-4 {
+  background-position: -1792px 0;
+}
+.icon-4:hover, .icon-img4.img4-hover {
+  background-position: -1536px 0;
+}
+.icon-5 {
+  background-position: -256px 0;
+}
+.icon-5:hover, .icon-img5.img5-hover {
+  background-position: 0 0;
+}
+.icon-6 {
+  background-position: -768px 0;
+}
+.icon-6:hover, .icon-img6.img6-hover {
+  background-position: -512px 0;
+}
+.icon-7 {
+  background-position: -1280px 0;
+}
+.icon-7:hover, .icon-img7.img7-hover {
+  background-position: -1024px 0;
+}
+
+.icon-8 {
+  background-position: -1792px 0;
+}
+.icon-8:hover, .icon-img8.img8-hover {
+  background-position: -1536px 0;
+}
+.icon-9 {
+  background-position: -1280px 0;
+}
+.icon-9:hover, .icon-img9.img9-hover {
+  background-position: -1024px 0;
+}
+
+.icon-10 {
+  background-position: -1792px 0;
+}
+.icon-10:hover, .icon-img10.img10-hover {
+  background-position: -1536px 0;
+}
+
+.animation {
+  width: 500px;
+  height: 250px;
+  background: url("../img/icon-sf6bae0058a.png") left center pink;
+  animation: play 1.0s steps(20) infinite;
+}
+
+.animation2 {
+  width: 500px;
+  height: 250px;
+  background: url("../img/icon/img2-hover.png") right bottom lightblue;
+  animation: play 0.8s steps(20) infinite;
+}
+
+.animation3 {
+  width: 500px;
+  height: 250px;
+  background: url("../img/icon/img2.png") left center grey;
+  animation: play 1.5s steps(20) infinite;
+}
+
+.animation4 {
+  width: 500px;
+  height: 250px;
+  background: url("../img/icon/img1-hover.png") right center teal;
+  animation: play 0.8s steps(20) infinite;
+}
+
+@media screen and (min-width: 600px) {
+  .animation {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .animation2 {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .animation3 {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .animation4 {
+    width: 100%;
+  }
+}
+
+@keyframes play {
+  100% {
+    background-position: -4000px;
+  }
+}
