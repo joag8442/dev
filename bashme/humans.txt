@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Max Bublitz
+    Joshua Aguilar-Wynn
+    Ismael Garrido Mansoa
+    Benjamin Vernon
+    Beau Walters
+# THANKS
+
+    David Schaal
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Modernizr, Normalize.css
